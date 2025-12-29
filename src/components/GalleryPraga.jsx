@@ -39,9 +39,9 @@ export const GalleryPraga = ({images, text, sectionClass}) => {
 
   return (
     <section className={`py-12 ${sectionClass}`}>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-0 md:px-4">
         <motion.h2
-          className="text-3xl md:text-4xl text-center mb-8 tracking-wider"
+          className="text-3xl md:text-4xl text-center mb-8 tracking-wider px-4 md:px-0"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -49,13 +49,15 @@ export const GalleryPraga = ({images, text, sectionClass}) => {
         >
           {text}
         </motion.h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="flex flex-col md:grid md:grid-cols-3 md:gap-4">
           {images.map((img, index) => (
             <motion.div
               key={img.index}
-              className={`relative overflow-hidden rounded shadow-lg cursor-pointer ${
+              className={`relative overflow-hidden cursor-pointer md:rounded md:shadow-lg ${
+                index !== images.length - 1 ? "border-b-4 md:border-0 border-white" : ""
+              } ${
                 images.length % 2 !== 0 && index === images.length - 1
-                  ? "col-span-2 mx-auto md:col-span-1 md:mx-0"
+                  ? "md:col-span-1"
                   : ""
               }`}
               initial={{ opacity: 0, scale: 0.8 }}
@@ -67,7 +69,7 @@ export const GalleryPraga = ({images, text, sectionClass}) => {
               <motion.img
                 src={img.img}
                 alt={`Imagen ${index + 1}`}
-                className="w-full h-72 object-cover object-center hover:scale-110 transition-transform duration-300"
+                className="w-full h-80 md:h-72 object-cover object-center hover:scale-110 transition-transform duration-300"
               />
             </motion.div>
           ))}

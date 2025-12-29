@@ -95,9 +95,9 @@ const LugaresPraga = ({
               {linkCivil && linkCivil.trim() !== ""
                 ? <>
                     La fiesta se realizará <br />
-                    en <strong>{nombreSalon}</strong> a las <strong>{horaFiesta}</strong>.
+                    en <strong>{nombreSalon}</strong>.
                   </>
-                : <>La fiesta se realizará en <strong>{nombreSalon}</strong> a las <strong>{horaFiesta}</strong>.</>}
+                : <>La fiesta se realizará en <strong>{nombreSalon}</strong>.</>}
             </p>
             <a
               href={linkFiesta}
