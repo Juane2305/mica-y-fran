@@ -112,10 +112,10 @@ const Invitacion = () => {
               index: 4,
               img: "https://res.cloudinary.com/dheeykiqu/image/upload/v1766885534/IMG_5725_ippqvl.jpg",
             },
-            {
-              index: 5,
-              img: "https://res.cloudinary.com/dheeykiqu/image/upload/v1766885534/IMG_5728_swrkqw.jpg",
-            },
+            // {
+            //   index: 5,
+            //   img: "https://res.cloudinary.com/dheeykiqu/image/upload/v1766885534/IMG_5728_swrkqw.jpg",
+            // },
             {
               index: 6,
               img: "https://res.cloudinary.com/dheeykiqu/image/upload/v1766885534/IMG_5727_tjfhnx.jpg",
