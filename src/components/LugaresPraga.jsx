@@ -3,6 +3,8 @@ import ceremony from "../assets/praga/ceremony.json";
 import church from "../assets/praga/church.json";
 import Lottie from 'react-lottie-player';
 import PropTypes from 'prop-types'
+import party from "../assets/praga/party.json";
+
 
 
 const LugaresPraga = ({
@@ -82,7 +84,7 @@ const LugaresPraga = ({
               <Lottie
                 loop
                 play
-                animationData={ceremony}
+                animationData={party}
                 style={{ width: "100%", height: "100%" }}
               />
             </div>
