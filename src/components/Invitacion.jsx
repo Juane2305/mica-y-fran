@@ -35,7 +35,7 @@ const Invitacion = () => {
         />
         {/* Imagen para desktop */}
         <img
-          src="https://res.cloudinary.com/dheeykiqu/image/upload/v1766885534/IMG_5726_wh1wcu.jpg"
+          src="https://res.cloudinary.com/dheeykiqu/image/upload/v1769103011/bc4f4984-7f6f-46c2-ab4e-bc32544f489e_dyzpad.jpg"
           alt="Fondo nombres desktop"
           className="absolute inset-0 w-full h-full object-contain opacity-80 hidden md:block"
         />
@@ -84,7 +84,7 @@ const Invitacion = () => {
           linkCeremonia="https://maps.app.goo.gl/MgBX2dwC47P99DNr8"
           nombreIglesia="Parroquia San Isidro Labrador (Padre Doglia 53)"
           nombreCivil="Padre Doglia y 25 de Mayo"
-          horaIglesia="Por confirmar"
+          horaIglesia="20:50hs"
           linkCivil="https://maps.app.goo.gl/WefSH3wvZpEs4axS7"
           linkFiesta="https://maps.app.goo.gl/XZcA4hnTpQqcegVu7"
           nombreSalon="Rodriguez y Portillo, Cucha Cucha"
@@ -102,7 +102,7 @@ const Invitacion = () => {
             },
             {
               index: 2,
-              img: "https://res.cloudinary.com/dheeykiqu/image/upload/v1766885534/IMG_5726_wh1wcu.jpg",
+              img: "https://res.cloudinary.com/dheeykiqu/image/upload/v1769103011/bc4f4984-7f6f-46c2-ab4e-bc32544f489e_dyzpad.jpg",
             },
             {
               index: 3,
