@@ -86,7 +86,7 @@ const Invitacion = () => {
           nombreCivil="Padre Doglia y 25 de Mayo"
           horaIglesia="20:50hs"
           linkCivil="https://maps.app.goo.gl/WefSH3wvZpEs4axS7"
-          linkFiesta="https://maps.app.goo.gl/XZcA4hnTpQqcegVu7"
+          linkFiesta="https://maps.app.goo.gl/jgSX7rbg3yMx3taa7"
           nombreSalon="Rodriguez y Portillo, Cucha Cucha"
           horaFiesta="21:00 hs"
           horaCivil="11:00 hs"
